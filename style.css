@@ -1,0 +1,122 @@
+*{
+    background-origin: padding-box;
+}
+body { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: #FFDAB9	;
+    margin: 0%;
+}
+ img , p  {
+    display: inline-block;
+}
+.yalloy-color {
+    color: darkorange;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+.text-sub { 
+    text-align: center;
+    color:royalblue
+}
+.container {
+    background-color: #333; 
+    color: #eee
+    width  80%;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid red;
+}
+.main-aside h2:hover {
+ color: seagreen;
+ cursor: pointer;
+}
+.main-aside h2 {
+    text-align: center;
+}
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+.main-aside ul a {
+    text-decoration:none ;
+}
+.main-aside ul a:hover {
+    color: red;
+}
+.main-aside ul a:visited {
+color:green
+}
+.Linkendin{
+text-align: center;
+color: teal;
+cursor:pointer
+}
+.text-purple-900{
+    text-align: center;
+    color: black;
+}
+.facebook{
+    text-align: center;
+    color: teal;
+    padding: 0%;
+    cursor: pointer;
+}
+.botao-vermelho{
+   padding: 15px;
+    color: #eee;
+    background-color: #333;
+    border: none;
+}
+.botao-registro {
+    padding: 15px;
+    color: #eee;
+    background-color: #333;
+    border: none
+}
+img {
+    width: 250px;
+}
+.fixed-button {
+    background-color: #333;
+    color: #eee;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFDAB9;
+    padding: 1em;
+}
+form {
+    border: 1px solid white;
+    padding: 0.3cm;
+}
+form input, form button{
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+form button:hover {
+background-color:whitesmoke  ;
+color: blue;
+}
+.god {
+    width: 350px;
+    height: 250px;
+}
